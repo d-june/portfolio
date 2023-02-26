@@ -6,14 +6,14 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import ContactsPage from "./pages/ContactsPage";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import ScrollToTop from "./utils/scrollToTop";
 
 
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <ScrollToTop />
                 <Navbar/>
                 <Routes>
@@ -22,7 +22,7 @@ function App() {
                     <Route path="/contacts" element={<ContactsPage/>}></Route>
                 </Routes>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
         </div>
 
     );
