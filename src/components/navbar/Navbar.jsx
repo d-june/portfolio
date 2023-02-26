@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
-import HomeIcon from '@material-ui/icons/Home'
+import HomeIcon from '@mui/icons-material/Home';
 import styles from "./Navbar.module.scss"
 
 const Navbar = () => {
