@@ -1,0 +1,43 @@
+.contactsContainer {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contactsTitle {
+  font-size: 50px;
+  position: relative;
+  margin-bottom: 50px;
+  color: var(--accent);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 2px;
+    background: var(--accent);
+  }
+
+  @media (max-width: 576px) {
+    font-size: 40px;
+  }
+}
+
+.contactsList {
+
+}
+
+.contactsItem {
+  margin-bottom: 35px;
+  font-size: 20px;
+  a {
+    color: var(--accent)
+  }
+}
+
+.contactsSubtitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
