@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/d-june/portfolio.git/static/css/main.b9033571.css",
+    "main.js": "/d-june/portfolio.git/static/js/main.7bd14108.js",
+    "static/js/787.1ed0c42c.chunk.js": "/d-june/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "static/media/header-bg.jpg": "/d-june/portfolio.git/static/media/header-bg.7f069967b1c99c2ccbef.jpg",
+    "static/media/in-chocolate.jpg": "/d-june/portfolio.git/static/media/in-chocolate.03817d2d44aac43b815d.jpg",
+    "static/media/nfts.jpg": "/d-june/portfolio.git/static/media/nfts.1872007c854e1ceb97b8.jpg",
+    "static/media/estate.jpg": "/d-june/portfolio.git/static/media/estate.cfe9c9a0df09f9db37d8.jpg",
+    "static/media/friends.JPG": "/d-june/portfolio.git/static/media/friends.8ac5fedeeec4c1db1424.JPG",
+    "static/media/portfolio-creator.jpg": "/d-june/portfolio.git/static/media/portfolio-creator.1ee38169c379188567b2.jpg",
+    "static/media/furniking.jpg": "/d-june/portfolio.git/static/media/furniking.7ed73b3927988326e365.jpg",
+    "static/media/dudeshape.jpg": "/d-june/portfolio.git/static/media/dudeshape.4da970340489b4295669.jpg",
+    "static/media/creato.jpg": "/d-june/portfolio.git/static/media/creato.971c56dc2d1e5ca65890.jpg",
+    "static/media/luis.jpg": "/d-june/portfolio.git/static/media/luis.0e13917cb624e4969d02.jpg",
+    "static/media/sun.svg": "/d-june/portfolio.git/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/d-june/portfolio.git/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "index.html": "/d-june/portfolio.git/index.html",
+    "main.b9033571.css.map": "/d-june/portfolio.git/static/css/main.b9033571.css.map",
+    "main.7bd14108.js.map": "/d-june/portfolio.git/static/js/main.7bd14108.js.map",
+    "787.1ed0c42c.chunk.js.map": "/d-june/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9033571.css",
+    "static/js/main.7bd14108.js"
+  ]
+}
