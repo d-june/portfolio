@@ -6,7 +6,7 @@
 	--black: #171718;
 	--gray: rgba(71,74,81, 0.7);
 	--black-border: #26292d;
-	--white: #CFCFCF;
+	--white: #FFF;
 	--accent: #14804d;
 
 	/* Footer */
@@ -19,6 +19,7 @@
 	--text-color-light: var(--gray);
 
 	--box-shadow: 0 0 20px rgba(71, 74, 81, 0.2);
+	--box-shadow-hover: 0 0 20px rgba(71, 74, 81, 0.6);
 }
 
 .dark {
@@ -28,6 +29,7 @@
 	--text-color-light: #ABABAB;
 
 	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.5);
+	--box-shadow-hover: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 html,
@@ -39,6 +41,7 @@ body {
 	/* Light mode */
 	background-color: var(--page-bg);
 	color: var(--text-color);
+
 }
 
 #root {

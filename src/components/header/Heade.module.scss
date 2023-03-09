@@ -1,7 +1,7 @@
 /* Header */
 
 .header {
-  padding: 40px 0;
+  padding: 40px 20px;
   min-height: 695px;
   display: flex;
   justify-content: center;
@@ -13,6 +13,9 @@
   background-position: center center;
   color: var(--white);
   text-align: center;
+  @media (max-width: 600px) {
+    min-height: 500px;
+  }
 }
 
 .headerWrapper {
@@ -26,7 +29,7 @@
   font-weight: 700;
   line-height: 1.4;
   @media (max-width: 576px) {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
   }
 }
@@ -34,6 +37,9 @@
 .headerTitleGreeting {
   font-size: 60px;
   font-weight: 500;
+  @media (max-width: 576px) {
+    font-size: 45px;
+  }
 }
 
 .headerTitle {

@@ -10,13 +10,14 @@ const Projects = () => {
         <>
             <main className={styles.projectsContainer}>
                 <div className="container">
-                    <h2 className={styles.title}>React</h2>
+                    <h1 className={styles.title}>Проекты</h1>
+                    <h2 className={styles.subtitle}>React</h2>
                     <ul className={styles.projects}>
                         {reactProjects.map((project) => {
                             return <Project key={project.id} id={project.id} title={project.title} image={project.image} description={project.description} ghPages={project.ghPages} github={project.github}/>
                         })}
                     </ul>
-                    <h2 className={styles.title}>Верстка</h2>
+                    <h2 className={styles.subtitle}>Верстка</h2>
                     <ul className={styles.projects}>
                         {layoutProjects.map((project) => {
                             return <Project key={project.id} id={project.id} title={project.title} image={project.image} description={project.description} ghPages={project.ghPages} github={project.github}/>

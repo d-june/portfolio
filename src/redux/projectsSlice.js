@@ -52,7 +52,7 @@ const initialState = {
             title: 'В шоколаде',
             description: 'Конструктор тортов на JS. Прокрукта к блоку по кнопке. Добавлены попапы и VK отзывы.',
             ghPages: 'https://d-june.github.io/sweet-life/',
-            github: 'some'
+            github: 'https://github.com/d-june/sweet-life.git'
         },
         {
             id: 2,
@@ -60,7 +60,7 @@ const initialState = {
             title: 'Creato',
             description: 'Использован слайдер Swiper (навигация + кастомные буллеты)',
             ghPages: 'https://d-june.github.io/creato/',
-            github: ''
+            github: 'https://github.com/d-june/creato.git'
         },
         {
             id: 3,
@@ -68,7 +68,7 @@ const initialState = {
             title: 'Furniking',
             description: 'Добавление товаров в корзину. Фильтрация товаров. Споллеры при уменьшении экрана. Липкий блок с корзиной.',
             ghPages: 'https://d-june.github.io/furniking/',
-            github: ''
+            github: 'https://github.com/d-june/furniking.git'
         },
         {
             id: 4,
@@ -76,7 +76,7 @@ const initialState = {
             title: 'NFTs',
             description: 'Слайдер с увеличенным главным слайдом. Грид сетка swiper во втором слайдере. Споллеры при уменьшении экрана.',
             ghPages: 'https://d-june.github.io/nfts/',
-            github: ''
+            github: 'https://github.com/d-june/nfts.git'
         },
         {
             id: 5,
@@ -84,7 +84,7 @@ const initialState = {
             title: 'Luis',
             description: 'Опыт использования bootstrap. Переход к началу по кнопке в футере.',
             ghPages: 'https://d-june.github.io/luis-oenrique/',
-            github: ''
+            github: 'https://github.com/d-june/luis-oenrique'
         },
         {
             id: 6,
@@ -92,7 +92,7 @@ const initialState = {
             title: 'Estate',
             description: 'Липкий header. Переход к блоку при клике на кнопку. Споллеры при уменьшении экрана.',
             ghPages: 'https://d-june.github.io/estate/',
-            github: ''
+            github: 'https://github.com/d-june/estate.git'
         },
         {
             id: 7,
@@ -100,7 +100,7 @@ const initialState = {
             title: 'Dudeshape',
             description: 'Swiper с эффектом параллакс. Анимация цифр в разделе "преимущества".',
             ghPages: 'https://d-june.github.io/dudeshape/',
-            github: ''
+            github: 'https://github.com/d-june/dudeshape.git'
         },
         {
             id: 8,
@@ -108,7 +108,7 @@ const initialState = {
             title: 'Portfolio creator',
             description: 'Swiper, выходящий за пределы контейнера. Попапы. Споллеры при уменьшении экрана.',
             ghPages: 'https://d-june.github.io/portfolio-creator/',
-            github: ''
+            github: 'https://github.com/d-june/portfolio-creator.git'
         }
     ]
 }

@@ -1,12 +1,14 @@
 .projectsContainer {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .title {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   position: relative;
   margin-bottom: 70px;
-  color: var(--text-color);
+  color: var(--accent);
 
   &::after {
     content: '';
@@ -15,11 +17,24 @@
     left: calc(50% - 25px);
     width: 50px;
     height: 2px;
-    background: var(--text-color);
+    background: var(--accent);
   }
 
   @media (max-width: 576px) {
-    font-size: 40px;
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  position: relative;
+  border-left: 3px solid var(--accent);
+  @media (max-width: 576px) {
+    font-size: 20px;
   }
 }
 
@@ -27,7 +42,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .project {
@@ -42,7 +57,7 @@
   transition: box-shadow 0.5s ease-out 0s;
   @media (any-hover: hover) {
     &:hover {
-      box-shadow: (--box-shadow)
+      box-shadow: var(--box-shadow-hover);
     }
   }
   @media (max-width: 576px) {
