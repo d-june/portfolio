@@ -47,6 +47,7 @@ const Projects = () => {
       <motion.ul
         initial="hidden"
         whileInView="visible"
+        viewport={{ amount: 0.5, once: true }}
         className={
           reactProjects.length > 2
             ? styles.projectsListSmall
@@ -69,7 +70,7 @@ const Projects = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.5 }}
+        viewport={{ amount: 0.5, once: true }}
       >
         <motion.h2 className={styles.title} variants={titleAnimation}>
           Проекты HTML, CSS, JS

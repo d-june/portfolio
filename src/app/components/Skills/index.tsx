@@ -53,7 +53,7 @@ const Skills = () => {
         className={styles.skillsList}
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.5 }}
+        viewport={{ amount: 0.5, once: true }}
       >
         {skills.map((skill, index) => {
           return (
