@@ -22,7 +22,7 @@ const projectsAnimation = {
     y: -100,
     opacity: 0,
   },
-  visible: (custom) => ({
+  visible: (custom: number) => ({
     y: 0,
     opacity: 1,
     transition: { delay: custom * 0.2, duration: 0.7 },
