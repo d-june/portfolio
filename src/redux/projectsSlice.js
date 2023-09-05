@@ -19,7 +19,7 @@ const initialState = {
             description: "Социальная сеть",
             tools:
               "React, Redux Toolkit, Typescript, React Router, Web sockets, react-paginate, Бэкенд на express.js",
-            applicationPage: "https://talk-frontend.vercel.app/",
+            applicationPage: "https://talk-f8ry.onrender.com/",
             githubPage: "https://github.com/d-june/talk-frontend",
           },
     ],
