@@ -79,6 +79,7 @@ const Projects = () => {
       <motion.ul
         initial="hidden"
         whileInView="visible"
+        viewport={{ amount: 0.5, once: true }}
         className={
           layoutProjects.length > 2
             ? styles.projectsListSmall
