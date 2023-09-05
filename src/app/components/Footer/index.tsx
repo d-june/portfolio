@@ -26,7 +26,7 @@ const Footer = () => {
       className={styles.footer}
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.5 }}
+      viewport={{ amount: 0.5, once: true }}
     >
       <motion.div className={styles.footerContainer} variants={footerAnimation}>
         <div className={styles.footerAbout}>

@@ -44,7 +44,7 @@ const Skills = () => {
       id="skills"
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.5 }}
+      viewport={{ amount: 0.5, once: true }}
     >
       <motion.h2 className={styles.skillsTitle} variants={titleAnimation}>
         Навыки
