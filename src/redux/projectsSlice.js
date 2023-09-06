@@ -18,7 +18,7 @@ const initialState = {
             title: "Talk",
             description: "Социальная сеть",
             tools:
-              "React, Redux Toolkit, Typescript, React Router, Web sockets, react-paginate, Бэкенд на express.js",
+              "React, Redux Toolkit, Typescript, React Router, Web sockets, Бэкенд на express.js, MongoDB Atlass",
             applicationPage: "https://talk-f8ry.onrender.com/",
             githubPage: "https://github.com/d-june/talk-frontend",
           },
