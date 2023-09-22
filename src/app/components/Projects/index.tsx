@@ -17,15 +17,27 @@ const titleAnimation = {
   },
 };
 
-const projectsAnimation = {
+const reactProjectsAnimation = {
   hidden: {
-    y: -100,
+    x: 800,
     opacity: 0,
   },
   visible: (custom: number) => ({
-    y: 0,
+    x: 0,
     opacity: 1,
-    transition: { delay: custom * 0.2, duration: 0.7 },
+    transition: { delay: 0.4, duration: 0.8 },
+  }),
+};
+
+const layoutProjectsAnimation = {
+  hidden: {
+    x: -1000,
+    opacity: 0,
+  },
+  visible: (custom: number) => ({
+    x: 0,
+    opacity: 1,
+    transition: { delay: 0.4, duration: 0.7 },
   }),
 };
 
@@ -43,7 +55,6 @@ const Projects = () => {
           Проекты на React
         </motion.h2>
       </motion.div>
-
       <motion.ul
         initial="hidden"
         whileInView="visible"
@@ -59,18 +70,18 @@ const Projects = () => {
             <motion.li
               key={project.id}
               className={styles.skillsItem}
-              custom={project.id + 1}
-              variants={projectsAnimation}
+              variants={reactProjectsAnimation}
             >
               <Project {...project} />
             </motion.li>
           );
         })}
       </motion.ul>
+
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.5, once: true }}
+        viewport={{ once: true }}
       >
         <motion.h2 className={styles.title} variants={titleAnimation}>
           Проекты HTML, CSS, JS
@@ -79,7 +90,7 @@ const Projects = () => {
       <motion.ul
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.5, once: true }}
+        viewport={{ once: true }}
         className={
           layoutProjects.length > 2
             ? styles.projectsListSmall
@@ -91,8 +102,7 @@ const Projects = () => {
             <motion.li
               key={project.id}
               className={styles.skillsItem}
-              custom={project.id + 1}
-              variants={projectsAnimation}
+              variants={layoutProjectsAnimation}
             >
               <Project {...project} />
             </motion.li>
