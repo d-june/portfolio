@@ -4,6 +4,16 @@ const initialState = {
     reactProjects: [
         {
             id: 1,
+            imageUrl: "/projects/cad.jpg",
+            title: "CAD",
+            description: "Интернет магазин hand made",
+            tools:
+              "Next.js, Redux Toolkit, Typescript,  backend - Nest.js",
+            applicationPage: "https://cadhome.ru/",
+            githubPage: "https://github.com/d-june/cad-frontend",
+          },
+        {
+            id: 2,
             imageUrl: "/projects/vegeterian-food.JPG",
             title: "Vegetarian food",
             description: "Интернет магазин",
@@ -13,7 +23,7 @@ const initialState = {
             githubPage: "https://github.com/d-june/vegeterian-food/",
           },
           {
-            id: 2,
+            id: 3,
             imageUrl: "/projects/talk.JPG",
             title: "Talk",
             description: "Социальная сеть",
